@@ -1,0 +1,140 @@
+/* STAGE SELECTION */
+#stage {
+    margin-left: 165px;
+    margin-bottom: 200px;
+}
+
+.stage-main__heading {
+    margin-bottom: 80px;
+    color: #83888F;    
+    font-family: 'Fraunces';
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.stage-main__list {
+    display: flex;
+}
+
+.stage-item__number {
+    font-family: Fraunces ;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+    margin-right: 290px;
+}
+
+.stage-item__heading {
+    font-family: "Fraunces";
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-bottom: 42px;
+}
+
+.stage-item__paragraph {
+    font-family: "Barlow";
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin-bottom: 64px;
+    text-align: start;
+    max-width: 285px;
+    width: 100%;
+    height: 130px;
+}
+
+.stage-main__icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 61px;
+}
+
+.stage-icon__circle {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+}
+
+.stage-icon__line {
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: #FDD6BA;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 720px) {
+    #stage {
+        margin-left: 24px;
+        margin-bottom: 120px;
+    }
+    
+    .stage-main__heading {
+        margin-bottom: 80px;
+        color: #83888F;    
+        font-family: 'Fraunces';
+        font-size: 24px;
+        line-height: 32px;
+        margin-left: 72px;
+    }
+    
+    .stage-main__list {
+        display: block;
+    }
+    
+    .stage-item__number {
+        font-family: Fraunces ;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 24px;
+        margin-right: 0;
+        margin-left: 100px;
+    }
+    
+    .stage-item__heading {
+        font-family: "Fraunces";
+        font-size: 28px;
+        line-height: 32px;
+        color: #333D4B;
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+    
+    .stage-item__paragraph {
+        font-family: "Barlow";
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        text-align: center;
+        max-width: 327px;
+        width: 100%;
+        height: 101px;
+        margin-bottom: 56px;
+        margin-left: 0;
+    }
+
+
+    
+    .stage-main__icon {
+        display: none;
+    }
+
+    .stage-icon__circle {
+        display: none;
+    }
+    
+    .stage-icon__line {
+        display: none;
+    }
+
+    .stage__btn {
+        margin-left: 50px;
+        margin-top: 23px;
+    }
+}
+/* /STAGE SELECTION */

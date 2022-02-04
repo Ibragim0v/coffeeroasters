@@ -1,0 +1,216 @@
+#process {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 200px;
+}
+
+.process-main__one {
+    background-color: #333d4b;
+    max-width: 1280px;
+    width: 100%;
+    height: 550px;
+    border-radius: 8px;
+}
+
+.process-main__heading {
+    font-family: "Fraunces";
+    color: #fefcf7;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 121px;
+    padding-left: 480px;
+}
+
+.process-main__paragraph {
+    max-width: 540px;
+    width: 100%;
+    font-family: "Barlow";
+    color: #fefcf7;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 32px;
+    text-align: center;
+    margin-left: 370px;
+}
+
+.process-main__list {
+    display: flex;
+    margin-bottom: 248px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: -200px;
+}
+
+.process-list__item {
+    background-color: #0E8784;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+.process-item__bean {
+    margin-top: 72px;
+    margin-left: 142px;
+    margin-right: 142px;
+    max-width: 72px;
+    width: 100%;
+    height: 72px;
+}
+
+.process-item__box {
+    margin-top: 72px;
+    margin-left: 142px;
+    margin-right: 142px;
+    max-width: 72px;
+    width: 100%;
+    height: 72px;
+}
+
+.process-item__car {
+    margin-top: 72px;
+    margin-left: 142px;
+    margin-right: 142px;
+    max-width: 72px;
+    width: 100%;
+    height: 72px;
+}
+
+.process-item__heading {
+    margin-top: 56px;
+    margin-left: 47px;
+    margin-right: 47px;
+    width: 255px;
+    text-align: center;
+    font-family: "Fraunces";
+    color: #fefcf7;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.process-item__paragraph {
+    margin-top: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 48px;
+    font-family: "Barlow";
+    text-align: center;
+    color: #fefcf7;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@media only screen and (max-width: 720px) {
+    #process {
+        margin-top: 1350px;
+        margin-bottom: 120px;
+        margin-left: 12px;
+        margin-right: 0px;
+    }
+    
+    .process-main__one {
+        background-color: #333d4b;
+        max-width: 327px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .process-main__heading {
+        font-family: "Fraunces";
+        color: #fefcf7;
+        font-size: 28px;
+        line-height: 28px;
+        padding-top: 64px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        padding-left: 24px;
+        margin-left: 24px;
+        max-width: 279px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .process-main__paragraph {
+        max-width: 279px;
+        width: 100%;
+        font-family: "Barlow";
+        color: #fefcf7;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 664px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-left: 24px;
+    }
+    
+    .process-main__list {
+        display: block;
+        margin-bottom: 24px;
+        margin-right: 24px;
+        margin-left: 24px;
+        margin-top: -600px;
+    }
+    
+    .process-list__item {
+        background-color: #0E8784;
+        border-radius: 8px;
+        max-width: 279px;
+        width: 100%;
+    }
+    
+    .process-item__bean {
+        margin-top: 72px;
+        margin-left: 104px;
+        margin-right: 104px;
+        margin-bottom: 56px;
+        max-width: 72px;
+        width: 100%;
+        height: 72px;
+    }
+    
+    .process-item__box {
+        margin-top: 72px;
+        margin-left: 104px;
+        margin-right: 104px;
+        margin-bottom: 56px;
+        max-width: 72px;
+        width: 100%;
+        height: 72px;
+    }
+    
+    .process-item__car {
+        margin-top: 72px;
+        margin-left: 104px;
+        margin-right: 104px;
+        margin-bottom: 56px;
+        max-width: 72px;
+        width: 100%;
+        height: 72px;
+    }
+    
+    .process-item__heading {
+        margin-top: 0%;
+        margin-right: 12px;
+        margin-left: 12px;
+        width: 255px;
+        text-align: center;
+        font-family: "Fraunces";
+        color: #fefcf7;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .process-item__paragraph {
+        margin-top: 24px;
+        margin-left: 34px;
+        margin-right: 34px;
+        padding-bottom: 51px;
+        font-family: "Barlow";
+        text-align: center;
+        color: #fefcf7;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,20 @@
+/* FONT */
+@font-face {
+    font-family: "Fraunces";
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    src:url("../font/fraunces-v10-latin-900.woff") format("woff"),
+    url("../font/fraunces-v10-latin-900.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src:url("../font/barlow-v5-latin-regular.woff") format('woff'),
+    url("../font/barlow-v5-latin-regular.woff2") format('woff2'); 
+}
+
+/* /FONT */

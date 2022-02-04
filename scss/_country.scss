@@ -1,0 +1,119 @@
+/* COUNTRY SECTION*/
+#country {
+    margin-left: 165px;
+    margin-top: 158px;
+    margin-bottom: 158px;
+}
+
+.country-main__heading {
+    font-family: "Fraunces";
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+}
+
+.country-main__list {
+    display: flex;
+}
+
+.country-list__item {
+    margin-left: 95px;
+}
+
+.united-kingdom {
+    margin-bottom: 50px;
+}
+
+.canada {
+    margin-bottom: 50px;
+}
+
+.australia {
+    margin-bottom: 50px;
+}
+
+.country-item__heading {
+    margin-bottom: 24px;
+    font-family: "Fraunces";
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-right: 108px;
+}
+
+.country-item__paragraph {
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+@media only screen and (max-width: 720px) {
+    #country {
+        margin-left: 0;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    
+    .country-main__heading {
+        font-family: "Fraunces";
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+        padding-left: 36px;
+        max-width: 327px;
+        width: 100%;
+    }
+    
+    .country-main__list {
+        display: block;
+    }
+    
+    .country-list__item {
+        margin-left: 0%;
+    }
+
+    .country-list__item + .country-list__item {
+        margin-top: 80px;
+    }
+    
+    .united-kingdom {
+        margin-bottom: 47px;
+        margin-left: 145px;
+    }
+    
+    .canada {
+        margin-bottom: 47px;
+        margin-left: 145px;
+    }
+    
+    .australia {
+        margin-bottom: 47px;
+        margin-left: 145px;
+    }
+    
+    .country-item__heading {
+        font-family: "Fraunces";
+        line-height: 36px;
+        font-size: 28px;
+        color: #333D4B;
+        margin-bottom: 24px;
+        margin-right: 0%;
+        max-width: 327px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .country-item__paragraph {
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        max-width: 327px;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* /COUNTRY SECTION*/

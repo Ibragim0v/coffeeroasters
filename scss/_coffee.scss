@@ -1,0 +1,99 @@
+/* COFFEE SECTION */
+#coffee {
+    padding-bottom: 150px;
+    margin-top: 158px;
+}
+
+.coffee-main__text {
+    background-color: #333d4b;
+}
+.coffee-text__heading {
+    font-family: "Fraunces";
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    max-width: 517px;
+    width: 100%;
+    margin-left: 85px;
+    margin-bottom: 32px;
+    padding-top: 100px;
+}
+
+.coffee-text__paragraph {
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    max-width: 540px;
+    width: 100%;
+    margin-left: 85px;
+    padding-bottom: 150px;
+}
+
+.coffee-main__img {
+    margin-left: 717px;
+    margin-top: -550px;
+}
+
+.coffee-main__image {
+    border-radius: 10px;
+}
+
+.coffee-main__photo {
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+    #coffee {
+        margin-bottom: 400px;
+        margin-top: 200px;
+    }
+    
+    .coffee-main__text {
+        background-color: #333d4b;
+        max-width: 327px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .coffee-text__heading {
+        font-family: "Fraunces";
+        font-size: 28px;
+        line-height: 28px;
+        color: #FEFCF7;
+        max-width: 279px;
+        width: 100%;
+        margin-left: 24px;
+        margin-bottom: 24px;
+        margin-top: 64px;
+        text-align: center;
+    }
+    
+    .coffee-text__paragraph {
+        font-family: Barlow;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        max-width: 279px;
+        width: 100%;
+        margin-left: 24px;
+        padding-bottom: 61px;
+        text-align: center;
+    }
+    
+    .coffee-main__img {
+        margin-left: 24px;
+        margin-top: -550px;
+    }
+    
+    .coffee-main__image {
+        display: none;
+    }
+
+    .coffee-main__photo {
+        display: inline-block;
+    }
+}
+/* /COFFEE SECTION */
